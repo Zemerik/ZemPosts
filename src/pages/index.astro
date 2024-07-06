@@ -1,0 +1,44 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Project from "../components/Project.astro";
+
+interface Repo {
+  owner: string;
+  repo: string;
+  description: string;
+  language: string;
+  languageColor: string;
+  stars: string;
+  forks: string;
+}
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={`${SITE_TITLE} Home`} description={SITE_DESCRIPTION} />
+  </head>
+
+  <body>
+    <Header title={SITE_TITLE} />
+    <main class="text-lg text-neutral-200">
+      <h1 class="text-4xl pb-2">ZemPosts</h1>
+      <p>
+        Post & Connect with Developers
+      </p>
+      <br />
+      <p>
+        ZemPosts stands as an open-source platform, providing users with the opportunity to write 
+        and read blogs seamlessly. This connectivity is fostered through the simple act of 
+        publishing one's blog to the platform, thus creating a digital hub where 
+        like-minded individuals can engage, collaborate, and 
+        share insights within the expansive realm of writing and blogging. 
+        With its user-friendly interface and inclusive community ethos, ZemPosts serves as 
+        a dynamic space where connections are forged, ideas are exchanged, and creativity thrives.
+      </p>
+  </body>
+</html>
+<Footer></Footer>

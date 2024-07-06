@@ -1,0 +1,19 @@
+---
+export type Props = astroHTML.JSX.AnchorHTMLAttributes;
+
+const { href, ...props } = Astro.props;
+
+const { pathname } = Astro.url;
+const isActive = href === pathname || href === pathname.replace(/\/$/, "");
+---
+
+<a
+  href={href}
+  rel="prefetch"
+  class={`text-themeMain underline-offset-3px ${
+    isActive ? "font-bold underline" : "font-medium"
+  }`}
+  {...props}
+>
+  <slot />
+</a>

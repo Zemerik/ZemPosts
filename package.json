@@ -1,0 +1,36 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^3.0.1",
+    "@astrojs/prefetch": "^0.4.1",
+    "@astrojs/react": "^3.4.0",
+    "@astrojs/rss": "^4.0.6",
+    "@astrojs/sitemap": "^3.1.5",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "astro": "^4.9.1",
+    "astro-og-canvas": "^0.5.0",
+    "flamethrower-router": "^0.0.0-meme.12",
+    "fuse.js": "^7.0.0",
+    "mdast-util-to-string": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "reading-time": "^1.5.0",
+    "rehype-autolink-headings": "^7.1.0"
+  },
+  "devDependencies": {
+    "@unocss/reset": "^0.60.3",
+    "unocss": "^0.60.3",
+    "unocss-preset-scrollbar": "^0.3.1"
+  }
+}

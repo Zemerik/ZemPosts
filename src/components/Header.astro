@@ -1,0 +1,32 @@
+---
+import HeaderLink from "./HeaderLink.astro";
+---
+
+<header>
+  <h2 class="text-xl pb-1 flex items-center gap-3">
+    <img
+      src="/images/avatar.jpeg"
+      alt="ZemPosts"
+      width={50}
+      height={50}
+      class="rounded-full border-none m-0 font-bold"
+    />
+    ZemPosts
+  </h2>
+  <nav class="flex gap-3">
+    <HeaderLink href="/">Home</HeaderLink>
+    <HeaderLink href="/blog">Posts</HeaderLink>
+    <HeaderLink href="https://github.com/Zemerik/ZemPosts" target="_blank">
+      Add your Post
+    </HeaderLink>
+  </nav>
+</header>
+
+<style>
+  header {
+    margin: 0em 0 2em;
+  }
+  h2 {
+    margin: 0.5em 0;
+  }
+</style>

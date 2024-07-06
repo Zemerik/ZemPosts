@@ -1,0 +1,45 @@
+---
+import getReadingtime from "reading-time";
+import { getCollection } from "astro:content";
+import { SITE_TITLE } from "../config";
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { BlogPosts } from "../components/BlogPosts";
+
+const posts = await getCollection("blog");
+
+const blogPosts = posts
+  .filter((post) => !post.data.draft)
+  .map((post) => ({
+    frontmatter: {
+      ...post.data,
+      readingTime: getReadingtime(post.body).text,
+    },
+    url: `/blog/${post.slug}`,
+  }))
+  .sort(
+    (a, b) =>
+      new Date(b.frontmatter.pubDate).valueOf() -
+      new Date(a.frontmatter.pubDate).valueOf(),
+  );
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={`${SITE_TITLE} Posts`}
+      description="Post & Connect with Developers"
+    />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h1 class="pb-6">Posts</h1>
+
+      <BlogPosts posts={blogPosts} client:load />
+    </main>
+    <Footer />
+  </body>
+</html>
