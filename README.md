@@ -92,13 +92,13 @@ ZemPosts stands as an open-source platform, providing users with the opportunity
 1. Make a `Copy` of this Repository on your machine by using the following `git command` in your terminal:
 
 ```
-git clone https://github.com/Zemerik/Posts
+git clone https://github.com/Zemerik/ZemPosts
 ```
 
 2. `Navigate` into the Project's `directory` by entering the following `command` in your terminal:
 
 ```
-cd ZemShowcase
+cd ZemPosts
 ```
 
 3. `Install` the required `Dependencies` by using `NPM`:
