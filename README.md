@@ -35,8 +35,6 @@
 
 ZemPosts stands as an open-source platform, providing users with the opportunity to write and read blogs seamlessly. This connectivity is fostered through the simple act of publishing one's blog to the platform, thus creating a digital hub where like-minded individuals can engage, collaborate, and share insights within the expansive realm of writing and blogging. With its user-friendly interface and inclusive community ethos, ZemPosts serves as a dynamic space where connections are forged, ideas are exchanged, and creativity thrives.
 
-[![RepoRater](https://repo-rater.eddiehub.io/api/badge?owner=Zemerik&name=ZemPosts)](https://repo-rater.eddiehub.io/rate?owner=Zemerik&name=ZemPosts)
-
 ## ⭐ Features:
 
 <table align = "center">
