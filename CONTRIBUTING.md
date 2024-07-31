@@ -61,7 +61,7 @@ npm run astro dev
 
 - [Fork](https://github.com/Zemerik/ZemPosts/fork)
 
-2. Head over to your **Forked** Repository, and locate the `src/content` directory. Create a new file, and name it `[Post Title].mdx`
+2. Head over to your **Forked** Repository, and locate the `src/content/blog` directory. Create a new file, and name it `[Post Title].mdx`
 
 > [!Note]
 > Remember to replace `[Post Title]` with your actual Post Title. 
