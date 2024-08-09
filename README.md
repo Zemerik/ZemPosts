@@ -22,18 +22,11 @@
   <img src = "public/Screenshot.png">
 </p>
 
-## 👍 Table of Contents:
-
-- [❗ About](https://github.com/Zemerik/ZemPosts?tab=readme-ov-file#about)
-- [⭐ Features](https://github.com/Zemerik/ZemPosts?tab=readme-ov-file#-features)
-- [🏃‍♂️ Locally Running](https://github.com/Zemerik/ZemPosts?tab=readme-ov-file#%EF%B8%8F-locally-running)
-- [🤝 Contributing](https://github.com/Zemerik/ZemPosts?tab=readme-ov-file#-contributing)
-- [💁 Support](https://github.com/Zemerik/ZemPosts?tab=readme-ov-file#-support)
-- [🥳 Contributors](https://github.com/Zemerik/ZemPosts?tab=readme-ov-file#-contributors)
-
 ## ❗ About:
 
 ZemPosts stands as an open-source platform, providing users with the opportunity to write and read blogs seamlessly. This connectivity is fostered through the simple act of publishing one's blog to the platform, thus creating a digital hub where like-minded individuals can engage, collaborate, and share insights within the expansive realm of writing and blogging. With its user-friendly interface and inclusive community ethos, ZemPosts serves as a dynamic space where connections are forged, ideas are exchanged, and creativity thrives.
+
+- Read our Official Docs on [ZemDocs](https://zemdocs.vercel.app/en/zemposts/introduction)
 
 ## ⭐ Features:
 

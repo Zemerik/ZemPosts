@@ -22,6 +22,8 @@
   <img src = "public/Screenshot.png">
 </p>
 
+- Read our Official Docs on [ZemDocs](https://zemdocs.vercel.app/en/zemposts/introduction)
+
 ## 🏃‍♂️ Locally Running:
 
 - This project can be locally executed on your machine in 4 simple steps!
