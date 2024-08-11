@@ -28,6 +28,16 @@ ZemPosts stands as an open-source platform, providing users with the opportunity
 
 - Read our Official Docs on [ZemDocs](https://zemdocs.vercel.app/en/zemposts/introduction)
 
+## 🎥 Youtube Video:
+
+- Feel free to watch our Youtube Video by clicking below 👇
+
+<div align = "center">
+
+[![Introducing: ZemPosts](https://ytcards.demolab.com/?id=1HVd3NTt3f8&title=Introducing%3A+ZemPosts&lang=en&timestamp=1723352391&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&max_title_lines=1&width=250&border_radius=5&duration=411 "Introducing: ZemPosts")](https://www.youtube.com/watch?v=1HVd3NTt3f8)
+
+</div>
+
 ## ⭐ Features:
 
 <table align = "center">
@@ -109,7 +119,7 @@ npm run astro dev
 Contributions are always welcome and appreciated! **Kindly visit the [CONTRIBUTING.md](https://github.com/Zemerik/ZemPosts/blob/main/CONTRIBUTING.md) file for more information**
 
 - > Don't Forget to Checkout [ZemProfiles](https://github.com/Zemerik/ZemProfiles) & [ZemShowcase](https://github.com/Zemerik/ZemShowcase)
-
+  
 ## 💁 Support:
 
 For any kind of support or inforrmation, you are free to join our **Discord Server**,
