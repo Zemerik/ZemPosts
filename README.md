@@ -114,6 +114,32 @@ npm i
 npm run astro dev
 ```
 
+## 🚀 Project Structure
+
+```text
+├── public/
+│   ├── fonts/
+│   └── images/
+├── src/
+│   ├── components/
+│   ├── content/
+│   ├── layouts/
+│   └── pages/
+│   └── styles/
+│   └── util/
+├── astro.config.mjs
+├── README.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── Licence
+├── package.json
+├── package-lock.json
+├── bun.lockb
+├── unoconfig.ts
+└── tsconfig.json
+```
+
 ## 🤝 Contributing:
 
 Contributions are always welcome and appreciated! **Kindly visit the [CONTRIBUTING.md](https://github.com/Zemerik/ZemPosts/blob/main/CONTRIBUTING.md) file for more information**
