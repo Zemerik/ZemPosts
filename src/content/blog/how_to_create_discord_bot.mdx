@@ -1,0 +1,43 @@
+---
+layout: ../../layouts/BlogPost.astro
+title: How to Create a Discord Bot?
+description: Learn how to create a simple discord bot
+pubDate: 10/20/2024
+---
+
+# How to Code a Discord bot?
+
+## 💻STEP 1 - Setting up your workspace: 
+
+- Head over to the terminal of your project and type, `npm init` to set up a nodejs project. 
+
+## 😃Step 2 - Add the Code: 
+
+- Copy Paste the following code in your entry point, 
+
+```js
+const express = require('express')
+const Discord = require('discord.js')
+const app = express();
+
+app.listen(3000, () => {
+  console.log("Project is running!");
+})
+
+const client = new Discord.Client({ intents: 32767 }) 
+
+client.on('messageCreate', async (message) => {
+  if (message.content === "hi") {
+    message.channel.send('helllo')
+  }
+})
+
+client.login('YOUR BOT TOKEN HERE')
+```
+
+- Remember to replace **YOUR BOT TOKEN HERE** with the actual token of your bot which can be obtained from [the developer portal](https://discord.com/developers/applications)
+
+## 🥇Step 3 - Running your project
+
+- You are now ready to run your project. As soon as your run your project, your discord bot should appear online and send `hello` whenever someone types `hi`. 
+
