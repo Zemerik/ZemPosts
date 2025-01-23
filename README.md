@@ -6,7 +6,7 @@
 
 <br>
 
-<img src = "https://skillicons.dev/icons?i=javascript,typescript,css,astro,react,vscode,vercel,github&perline=25">
+<img src = "https://skillicons.dev/icons?i=javascript,typescript,css,astro,react,vscode,npm,nodejs,php,vue,html,git,vercel,github&perline=25">
 
 </p>
 
@@ -27,6 +27,12 @@
 ZemPosts stands as an open-source platform, providing users with the opportunity to write and read blogs seamlessly. This connectivity is fostered through the simple act of publishing one's blog to the platform, thus creating a digital hub where like-minded individuals can engage, collaborate, and share insights within the expansive realm of writing and blogging. With its user-friendly interface and inclusive community ethos, ZemPosts serves as a dynamic space where connections are forged, ideas are exchanged, and creativity thrives.
 
 - Read our Official Docs on [ZemDocs](https://zemdocs.vercel.app/en/zemposts/introduction)
+
+## 🤖 CLI:
+
+ZemPosts has an official CLI that simplifies cloning, contributing, and displaying information. It makes contributing to the repository easier and can display all the information from the README. For more information, refer to the [CLI_USAGE.md](https://github.com/Zemerik/ZemPosts/blob/main/CLI_USAGE.md) file.
+
+- [Package Link](https://www.npmjs.com/package/zemposts)
 
 ## 🎥 Youtube Video:
 

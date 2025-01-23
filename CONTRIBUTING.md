@@ -6,7 +6,7 @@
 
 <br>
 
-<img src = "https://skillicons.dev/icons?i=javascript,typescript,css,astro,react,vscode,vercel,github&perline=25">
+<img src = "https://skillicons.dev/icons?i=javascript,typescript,css,astro,react,vscode,npm,nodejs,php,vue,html,git,vercel,github&perline=25">
 
 </p>
 
@@ -23,6 +23,7 @@
 </p>
 
 - Read our Official Docs on [ZemDocs](https://zemdocs.vercel.app/en/zemposts/introduction)
+
 
 ## 🏃‍♂️ Locally Running:
 
@@ -58,6 +59,9 @@ npm run astro dev
 
 
 ## ➕ Adding your Post:
+
+> [!Note]
+> You can add your Post either manually, or use the CLI. See the [`CLI_USAGE`](https://github.com/Zemerik/ZemPosts/blob/main/CLI_USAGE.md) file for specific instructions.
 
 1. Fork a copy of this Repository on your Github account by clicking below,
 
