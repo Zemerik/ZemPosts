@@ -11,7 +11,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^3.0.1",
+    "@astrojs/mdx": "^4.1.0",
     "@astrojs/prefetch": "^0.4.1",
     "@astrojs/react": "^3.4.0",
     "@astrojs/rss": "^4.0.6",
@@ -19,8 +19,8 @@
     "@example/basics": "file:",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "astro": "^4.16.18",
-    "astro-og-canvas": "^0.5.0",
+    "astro": "^5.4.2",
+    "astro-og-canvas": "^0.5.6",
     "flamethrower-router": "^0.0.0-meme.12",
     "fuse.js": "^7.0.0",
     "mdast-util-to-string": "^4.0.0",
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@unocss/reset": "^0.60.3",
-    "unocss": "^0.60.3",
+    "unocss": "^66.1.0-beta.3",
     "unocss-preset-scrollbar": "^0.3.1"
   }
 }
